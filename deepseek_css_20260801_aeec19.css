@@ -1,0 +1,26 @@
+/* ===== OpenList-Moe 全局 CSS 变量 ===== */
+:root {
+  /* 背景图片 - 浅色模式 */
+  --moe-bg-image-desktop: url("https://pic1.imgdb.cn/i/033yxoshyDZsZhaQ93uOez.jpg");
+  --moe-bg-image-mobile: url("https://pic1.imgdb.cn/i/033zbTajsBHgOzXNlty2Cq.png");
+
+  /* 毛玻璃模糊度 */
+  --moe-blur: 24px;           /* 背景初始模糊 */
+  --moe-nav-blur: 12px;       /* 导航栏 / 侧边栏 */
+  --moe-dialog-blur: 12px;    /* 对话框 / 下拉 */
+
+  /* 卡片透明度（高透明度） */
+  --moe-card-bg-opacity: 0.18;
+
+  /* 其他常用变量（可按需保留） */
+  --moe-radius: 16px;
+  --moe-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  --moe-border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ===== 深色模式覆盖 ===== */
+.hope-ui-dark {
+  /* 深色背景（按表格要求使用相同图片，如需区分可替换） */
+  --moe-bg-image-desktop: url("https://pic1.imgdb.cn/i/033yxoshyDZsZhaQ93uOez.jpg");
+  --moe-bg-image-mobile: url("https://pic1.imgdb.cn/i/033zbTajsBHgOzXNlty2Cq.png");
+}
